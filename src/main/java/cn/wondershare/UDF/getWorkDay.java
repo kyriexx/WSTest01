@@ -57,6 +57,7 @@ public class getWorkDay {
 
     public static void getDaysByYear(int year) {
         Calendar c = Calendar.getInstance();
+        System.out.println("测试master分支");
         //List dates = new ArrayList();
         for (int i = 0; i < 12; i++) {
             c.set(year, i, 1);

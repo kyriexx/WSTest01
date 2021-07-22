@@ -59,6 +59,7 @@ public class getWorkDay {
         Calendar c = Calendar.getInstance();
         System.out.println("测试master分支");
         System.out.println("测试ssh");
+        System.out.println("测试网页端编辑");
         //List dates = new ArrayList();
         for (int i = 0; i < 12; i++) {
             c.set(year, i, 1);
